@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98830da071.js" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="logo-name">
+                <p style="font-size: 25px;">Ninja</p>
+                <p style="margin-top: -25px; font-size: 20px;">Studio</p>
+            </div>
+            <div class="fav">
+                <p>Favourites</p>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="search-bar">
+                <div class="search-left-section">
+                    <i class="fas fa-search"></i>
+                    <span style="margin-left: 15px;">Search</span>
+                </div>
+                <div class="search-right-section">
+                    <i class="fas fa-microphone"></i>
+                </div>
+            </div>
+            <div class="bell-icon">
+                <i class="fas fa-bell" style="font-size: 25px;">
+                    <div class="notification" style="height: 8px; width: 8px; border-radius: 50%; background-color: red; z-index: 1;
+                    position: relative; top: -25px; left: 12px;">
+                    </div>
+                </i>
+
+            </div>
+            <div class="profile-pic">
+                <img src="images/profile_pic.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <div class="main-container">
+                <div class="silder-section">
+                    <img style="position: absolute; margin: 20px 0px 0px 0px;" class="silder-side-image"
+                        src="images/slinderImg2.png" alt="">
+                    <img style="z-index: 1; position: absolute;
+                    left: 12%; height: 100%;" src="images/slinderImg1.png" alt="">
+                    <img class="silder-side-image" style="position: absolute;
+                    left: 24%; margin: 20px 0px 0px 0px;" src="images/slinderImg3.png" alt="">
+                </div>
+                <div class="latest-release">
+                    <b>
+                        <p class="main-title">Latest Release</p>
+                    </b>
+                    <div class="releases-container">
+                        <div class="release">
+                            <img src="images/image.jpeg" alt="">
+                            <div class="release-details">
+                                <p>Onism</p>
+                                <p>AUG 11, 2017</p>
+                            </div>
+                            <div class="options">
+                                <b>
+                                    <p>. . .</p>
+                                </b>
+                                <p>4:44</p>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <img src="images/image.jpeg" alt="">
+                            <div class="release-details">
+                                <p>Onism</p>
+                                <p>AUG 11, 2017</p>
+                            </div>
+                            <div class="options">
+                                <b>
+                                    <p>. . .</p>
+                                </b>
+                                <p>4:44</p>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <img src="images/image.jpeg" alt="">
+                            <div class="release-details">
+                                <p>Onism</p>
+                                <p>AUG 11, 2017</p>
+                            </div>
+                            <div class="options">
+                                <b>
+                                    <p>. . .</p>
+                                </b>
+                                <p>4:44</p>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <img src="images/image.jpeg" alt="">
+                            <div class="release-details">
+                                <p>Onism</p>
+                                <p>AUG 11, 2017</p>
+                            </div>
+                            <div class="options">
+                                <b>
+                                    <p>. . .</p>
+                                </b>
+                                <p>4:44</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-artists">
+                    <b>
+                        <p class="main-title">Popular Artists</p>
+                    </b>
+                    <div class="artists">
+                        <div class="artist">
+                            <img src="images/edshreen.png" alt="">
+                            <p>Ed Sheeran</p>
+                        </div>
+                        <div class="artist">
+                            <img src="images/coldplay.jpg" alt="">
+                            <p>Cold Play</p>
+                        </div>
+                        <div class="artist">
+                            <img src="images/zayn.jpg" alt="">
+                            <p>Zayn</p>
+                        </div>
+                        <div class="artist">
+                            <img src="images/charlie_puth" alt="">
+                            <p>Charlie Puth</p>
+                        </div>
+                        <div class="artist">
+                            <img src="images/imagine_dragon" alt="">
+                            <p>Imagine Dragon</p>
+                        </div>
+                        <div class="artist">
+                            <img src="images/bruno-mars.jpg" alt="">
+                            <p>Bruno Mars</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stations">
+                    <div style="margin: auto;">
+                        <div class="station-logo">
+                            <img src="images/music-station.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="stations-images">
+                        <div class="stations-container">
+                            <div class="station">
+                                <img src="images/love.png" alt="">
+                                <p>Love</p>
+                            </div>
+                        </div>
+                        <div class="stations-container">
+                            <div class="station">
+                                <img src="images/retro.jpeg" alt="">
+                                <p>Retro</p>
+                            </div>
+                        </div>
+                        <div class="stations-container">
+                            <div class="station">
+                                <img src="images/chill.jpg" alt="">
+                                <p>Chill</p>
+                            </div>
+                        </div>
+                        <div class="stations-container">
+                            <div class="station">
+                                <img src="images/workout.jpeg" alt="">
+                                <p>Workout</p>
+                            </div>
+                        </div>
+                        <div class="stations-container">
+                            <div class="station">
+                                <img src="images/rock.jpeg" alt="">
+                                <p>Rock</p>
+                            </div>
+                        </div>
+                        <div class="stations-container">
+                            <div class="station">
+                                <img src="images/pop.jpeg" alt="">
+                                <p>Pop</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="albums">
+                    <div class="album-container">
+                        <img src="images/party.jpeg" alt="">
+                        <p>Party</p>
+                    </div>
+                    <div class="album-container">
+                        <img src="images/electronic.jpeg" alt="">
+                        <p>Electronic</p>
+                    </div>
+                    <div class="album-container">
+                        <img src="images/road-trip.jpeg" alt="">
+                        <p>Road Trip</p>
+                    </div>
+                </div>
+                <div class="latest-english">
+                    <b>
+                        <p class="main-title">Latest English</p>
+                    </b>
+                    <div class="latest-collection">
+                        <div>
+                            <img src="images/song1.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song2.png" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song3.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song4.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song5.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song6.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="latest-hindi" style="margin-top: 30px;">
+                    <b>
+                        <p class="main-title">Latest Hindi</p>
+                    </b>
+                    <div class="latest-collection">
+                        <div>
+                            <img src="images/song1.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song2.png" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song3.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song4.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song5.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                        <div>
+                            <img src="images/song6.jpeg" alt="">
+                            <b>
+                                <p>Onism</p>
+                            </b>
+                            <p style="font-size: 0.6rem;">AUG 11, 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="queue-container">
+                <b>
+                    <p class="main-title">Queue</p>
+                </b>
+                <div class="queue-list">
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">01</p>
+                            <img src="images/song1.jpeg" alt="">
+                            <div class="song-details">
+                                <p><b>Mirage</b></p>
+                                <p class="common-p-styles">Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">02</p>
+                            <img src="images/song2.png" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>Worry About Us</p>
+                                </b>
+                                <p class="common-p-styles">Rosie Lowe</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">03</p>
+                            <img src="images/song3.jpeg" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>New Skin</p>
+                                </b>
+                                <p class="common-p-styles">Flume</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">04</p>
+                            <img src="images/song4.jpeg" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>Mirage</p>
+                                </b>
+                                <p class="common-p-styles">Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">05</p>
+                            <img src="images/song5.jpeg" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>New Skin</p>
+                                </b>
+                                <p class="common-p-styles">Flume</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">06</p>
+                            <img src="images/song6.jpeg" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>Worry About Us</p>
+                                </b>
+                                <p class="common-p-styles">Rosie Lowe</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">07</p>
+                            <img src="images/song1.jpeg" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>New Skin</p>
+                                </b>
+                                <p class="common-p-styles">Flume</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">08</p>
+                            <img src="images/song2.png" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>Mirage</p>
+                                </b>
+                                <p class="common-p-styles">Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">09</p>
+                            <img src="images/song3.jpeg" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>New Skin</p>
+                                </b>
+                                <p class="common-p-styles">Flume</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="queue-list-item">
+                        <div class="queue-item-section1">
+                            <p class="common-p-styles" style="margin: auto;">10</p>
+                            <img src="images/song4.jpeg" alt="">
+                            <div class="song-details">
+                                <b>
+                                    <p>Worry About Us</p>
+                                </b>
+                                <p class="common-p-styles">Rosie Lowe</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="music-player">
+                
+            </div>
+        </main>
+        <footer style="margin-bottom: 20px;"></footer>
+    </div>
+</body>
+
+</html>
